@@ -5,5 +5,7 @@ Grupo: Matheus de Carvalho e Lucas Corradi
 
 Descrição do Banco:
 
- Um aplicativo que fornece entrega de comidas precisa de um banco de dados, Diversas empresas estão cadastradas nesse sistema, podendo ter diversos funcionários com diferentes cargos, mas para esse banco de dados o foco são os cozinheiros e os entregadores. Cada funcionário se relaciona apenas com 1 empresa.
- O cozinheiro precisa saber o que o cliente vai querer, para preparar, e o entregador precisa saber qual entrega é de qual cliente, junto a seu endereço.
+Um aplicativo de delivery de comida solicita um banco de dados para fornecer uma melhor plataforma para as empresas nele cadastradas.
+O aplicativo é responsável pela comunicação entre cliente e empresas de comida. Cada um dos funcionários tem uma empresa na qual ele trabalha, dessa forma, cada empresa tem acesso somente aos seus funcionários. O banco de dados será utilizado para ter um controle maior sobre quais produtos cada cozinheiro é responsável, e quais entregas cada entregador fez, para, dessa forma, consiliar um sistema de feedback, onde o cliente pode fazer um comentário direto pela comida fornecida ou para o serviço prestado pelo entregador. 
+
+É de extrema importância, o banco de dados, anotar o tempo decorrido de cada entrega. O aplicativo solicita que, o banco de dados, anote quais alimentos foram consumidos por cada cliente. Para as empresas conseguirem ver quais de seus produtos são mais pedidos.
