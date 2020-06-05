@@ -1,0 +1,4 @@
+Oi professor, vimos que na Tabela Entrega colocamos o TempoEntrega como Date, mas só depois de testar
+no Insert Into que descobrimos que não era exatamente dessa forma que queríamos para o nosso banco.
+Por isso trocamos o Date pelo Varchar, assim é melhor de deixar o tempo mais preciso.
+Obrigado Professor.
