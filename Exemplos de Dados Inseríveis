@@ -1,0 +1,17 @@
+insert into Empresa(id_empresa, nomeEmpresa, telefone) values (0, 'King', '99123-4567');
+
+insert into Endereco_Empresa(id_endereco, id_empresa, cep, numero, bairro) values (0, 0, '68906-630', 22, 'IBES');
+
+insert into Funcionario(id_funcionario, id_empresa, cpf, nome) values (0, 0, '343.707.430-01', 'Fernando Moreira');
+
+insert into Cozinheiro(id_cozinheiro, id_funcionario, alimento) values (0,0, 'Frango Assado');
+
+insert into Cliente(id_cliente, cpf, nome, telefone) values (0, '136.179.930-79', 'Marcio Navarro', '99915-8791');
+
+insert into Pedido(id_pedido, id_cliente, id_cozinheiro, qntpedidos) values (0, 0, 0, 3);
+
+insert into Endereco_Cliente(id_endereco, id_cliente, cep, numero, bairro) values (0, 0, '70740-715', 17, 'Glória');
+
+insert into Entregador(id_entregador, id_funcionario, id_pedido, pedidoEntrega, tempoEntrega, nota) values (0, 0, 0, 'Frango Assado', '1 hora e 30 minutos', 10);
+
+insert into Entrega(id_entrega, id_cliente, id_entregador) values (0, 0, 0);
