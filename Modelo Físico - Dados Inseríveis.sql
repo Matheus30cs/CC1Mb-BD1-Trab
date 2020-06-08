@@ -1,8 +1,8 @@
-insert into Empresa(id_empresa, nomeEmpresa, telefone) values (0, 'Pedro', '99123-4567');
+insert into Empresa(id_empresa, nomeEmpresa, telefone) values (0, 'King Produções', '99123-4567');
 
-insert into Empresa(id_empresa, nomeEmpresa, telefone) values (1, 'João', '99321-7654');
+insert into Empresa(id_empresa, nomeEmpresa, telefone) values (1, 'Restaurante da Dona Florinda', '99321-7654');
 
-insert into Empresa(id_empresa, nomeEmpresa, telefone) values (2, 'Maria', '92913-6475');
+insert into Empresa(id_empresa, nomeEmpresa, telefone) values (2, 'Almoço Rápido', '92913-6475');
 
 insert into Endereco_Empresa(id_endereco, id_empresa, cep, numero, bairro) values (0, 0, '68906-630', 22, 'IBES');
 
