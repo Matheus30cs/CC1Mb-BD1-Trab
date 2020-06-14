@@ -46,11 +46,11 @@ insert into Endereco_Cliente(id_endereco, id_cliente, cep, numero, bairro) value
 
 insert into Endereco_Cliente(id_endereco, id_cliente, cep, numero, bairro) values (2, 0, '72833-651', 19, 'Zumbi dos Palmares');
 
-insert into Entregador(id_entregador, id_funcionario, id_pedido, pedidoEntrega, tempoEntrega, nota) values (0, 3, 0, 'Frango Assado', '1 hora e 30 minutos', 7);
+insert into Entregador(id_entregador, id_funcionario, id_pedido, pedidoEntrega, tempoEntrega, nota) values (0, 3, 1, 'Frango Assado', '1 hora e 30 minutos', 7);
 
 insert into Entregador(id_entregador, id_funcionario, id_pedido, pedidoEntrega, tempoEntrega, nota) values (1, 4, 0, 'Alface e Tomate', '1 hora', 8.5);
 
-insert into Entregador(id_entregador, id_funcionario, id_pedido, pedidoEntrega, tempoEntrega, nota) values (2, 5, 0, 'Arroz com Feijão', '30 minutos', 10);
+insert into Entregador(id_entregador, id_funcionario, id_pedido, pedidoEntrega, tempoEntrega, nota) values (2, 5, 2, 'Arroz com Feijão', '30 minutos', 10);
 
 insert into Entrega(id_entrega, id_cliente, id_entregador) values (0, 2, 5);
 
