@@ -36,9 +36,10 @@ select A.nome, B.nomeEmpresa from Funcionario A, Empresa B, Cozinheiro C
 where A.id_empresa = B.id_empresa and A.id_funcionario = C.id_funcionario;
 
 A entrega X foi feita por qual entregador?
-select A.nome, B.pedidoEntrega from Funcionario A, Entregador B;
+select A.nome, B.pedidoEntrega from Funcionario A, Entregador B
+where A.id_funcionario = B.id_funcionario;
 
-Qual entregador tem a maior nota?
+Qual a maior nota dos Entregadores?
 select MAX(nota) from Entregador;
 
 A comida do pedido X foi entregue por qual entregador?
@@ -48,10 +49,4 @@ where B.id_funcionario = C.id_funcionario and A.id_pedido = C.id_pedido;
 
 A comida X do pedido Y foi feita por qual cozinheiro?
 select C.alimento, B.Nome from Pedido A, Funcionario B, Cozinheiro C
-
 where B.id_funcionario = C.id_funcionario and A.id_cozinheiro = C.id_cozinheiro;
-
-A comida X é mais ligada a qual empresa?
-Qual é o bairro com o maior numero de clientes?
-
-Qual é a comida mais pedida em certo bairro?
