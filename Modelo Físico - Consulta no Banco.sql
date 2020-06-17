@@ -20,7 +20,7 @@ Quantos Pedidos um cliente fez?
 select A.nome, B.qntpedidos from Cliente A, Pedido B
 where A.id_cliente = B.id_cliente;
 
-Quais Alimentos um Cozinheiro está preparando?
+A comida X do pedido foi feita por qual cozinheiro?
 
 select A.nome, B.alimento from Funcionario A, Cozinheiro B
 where A.id_funcionario = B.id_funcionario;
@@ -39,14 +39,5 @@ A entrega X foi feita por qual entregador?
 select A.nome, B.pedidoEntrega from Funcionario A, Entregador B
 where A.id_funcionario = B.id_funcionario;
 
-Qual a maior nota dos Entregadores?
+Qual a maior nota que cada um dos Entregadores receberam?
 select MAX(nota) from Entregador;
-
-A comida do pedido X foi entregue por qual entregador?
-
-select C.pedidoEntrega, B.Nome from Pedido A, Funcionario B, Entregador C
-where B.id_funcionario = C.id_funcionario and A.id_pedido = C.id_pedido;
-
-A comida X do pedido Y foi feita por qual cozinheiro?
-select C.alimento, B.Nome from Pedido A, Funcionario B, Cozinheiro C
-where B.id_funcionario = C.id_funcionario and A.id_cozinheiro = C.id_cozinheiro;
