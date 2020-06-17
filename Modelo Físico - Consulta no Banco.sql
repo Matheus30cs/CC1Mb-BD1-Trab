@@ -25,6 +25,10 @@ A comida X do pedido foi feita por qual cozinheiro?
 select A.nome, B.alimento from Funcionario A, Cozinheiro B
 where A.id_funcionario = B.id_funcionario;
 
+Qual o Tempo em que cada Entregador levou para fazer a entrega?
+select A.nome, B.tempoEntrega from Funcionario A, Entregador B
+where A.id_funcionario = B.id_funcionario;
+
 O entregador X trabalha em qual empresa?
 
 select A.nome, B.nomeEmpresa from Funcionario A, Empresa B, Entregador C
